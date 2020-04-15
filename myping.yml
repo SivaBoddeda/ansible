@@ -3,3 +3,4 @@
   tasks:
   - name: ping into all nodes
     ping:
+    
