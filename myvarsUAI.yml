@@ -1,5 +1,5 @@
 ---
-- hosts: webserver
+- hosts: webservers
   become: yes
   vars: 
     myvar1: ravi
@@ -12,3 +12,4 @@
   - name: display myvar2
     debug:
       msg: "{{myvar2}}"
+...
